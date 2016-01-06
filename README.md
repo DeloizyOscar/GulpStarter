@@ -12,7 +12,7 @@ Then install Gulp using `npm install -g gulp`. This installs Gulp globally and i
 
 Clone this repo to your local computer using this command:
 
-    git clone git@github.com:cssanimation/gulp-sass-starter.git starter
+    git clone git@github.com:DeloizyOscar/GulpStarter.git
 
 With the files downloaded, navigate to your `starter` folder on the command line (or Terminal) and run `npm install` to set things up.
 
@@ -24,10 +24,3 @@ With this set up, you should now be able to run:
 
 This will process any Sass (SCSS) files and launch a web browser showing the current files. Making changes to the files should result in the page updating automatically.
 
-## Questions
-
-Drop me a line at [hello@cssanimation.rocks](hello@cssanimation.rocks) with any questions or thoughts. Pull requests welcomed!
-
-### License
-
-MIT
