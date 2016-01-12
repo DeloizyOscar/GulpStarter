@@ -1,3 +1,6 @@
+// Set cross browser transition
+// Usage
+// @include transition(all .3 ease)
 @mixin transition($args) {
     -moz-transition:    $args;
     -o-transition:      $args;
@@ -5,6 +8,9 @@
     transition:         $args;
 }
 
+// Set cross browser border-radius
+// Usage
+// @include border-radius(10%)
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -12,6 +18,10 @@
           border-radius: $radius;
 }
 
+
+// Set a cross browser opacity
+// Usage 
+// @include opacity(.4)
 @mixin opacity($opacity) {
   opacity: $opacity;
   $opacity-ie: $opacity * 100;
@@ -37,4 +47,13 @@
     font-weight: $weight;
     font-style: $style;
   }
+}
+
+// Set default button style
+// Usage
+// @include button(red, 1px solid black, green)
+@mixin button($bg-color, $border, $color) {
+  background-color: $bg-color;
+  border: $border;
+  color: $color;
 }
